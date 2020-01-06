@@ -1,0 +1,251 @@
+* {
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Ubuntu', sans-serif;
+}
+
+.slider {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100vh;
+  background: linear-gradient(to left, #8e9eab, #eef2f3);
+  z-index: -1;
+}
+
+.logo {
+  grid-column: 2/3;
+  font-size: 24px;
+}
+
+section {
+  display: flex;
+  /* height: 100vh; */
+  /* justify-content: center;
+  align-items: center; */
+}
+
+.hero {
+  height: 100%;
+  width: 100%;
+  position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.bg-image {
+  background-image: url("./images/4.jpg");
+  background-size: cover;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  height: 100vh;
+  width: 100vw;
+  background-position: center;
+  background-attachment: fixed;
+}
+
+.headline {
+  position: absolute;
+  color: whitesmoke;
+  z-index: 3;
+  filter: drop-shadow(0px 10px 3px black);
+}
+
+.headline h1 {
+  font-size: 8vw;
+}
+
+
+.hero::after{ 
+  content: "";
+  background: black;
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  opacity: 0.05;
+  left: 0;
+  top: 0;
+}
+
+#aboutme h2 {
+  font-size: 4vw;
+}
+
+#aboutme {
+  background-color: #f5f5f5;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+.about-img img{ 
+  width: 85%;
+}
+
+#aboutme li {
+  list-style-type: none;
+  padding-top: 10px;
+}
+
+#education h2{
+  font-size: 4vw;
+  padding-top: 4.5vw;
+  padding-bottom: 5vw;
+}
+
+#education {
+  padding-bottom: 4.5vw;
+}
+
+#education p {
+  padding-bottom: 1vw;
+}
+
+.school {
+  width: 5vw;
+}
+
+.school img{
+  width: 100%;
+
+}
+
+.uni {
+  width: 5vw;
+}
+
+.uni img {
+  width: 100%;
+}
+.cert {
+  width: 25vw;
+}
+
+.cert img{
+  width: 100%;
+
+}
+
+#skill {
+  background-color: #f5f5f5;
+  padding-bottom: 4.5vw;
+}
+
+#skill h2 {
+  font-size: 4vw;
+  padding-top: 4.5vw;
+  padding-bottom: 5vw;
+}
+
+.tool {
+  width: 5.5vh;
+  text-align: center;
+  margin-bottom: 2vh;
+}
+
+.tool img {
+  width: 73%;
+}
+
+.time {
+  padding-left: 3vw;
+}
+
+.line p {
+  text-align: center;
+}
+
+.line {
+  height: 12vh;
+  border-left: 2px solid black;
+}
+
+#project {
+  justify-content: center;
+  align-items: center;
+  padding-bottom: 4.5vw;
+}
+
+#project h2 {
+  font-size: 4vw;
+  padding-top: 4.5vw;
+  padding-bottom: 5vw;
+}
+
+#project table {
+  border-collapse: collapse;
+  width: 100%;
+}
+
+td, th {
+  border: 1px solid #dddddd;
+  text-align: left;
+  padding: 8px;
+}
+
+th {
+  background-color: #dddddd;
+}
+
+#project a{
+  color: black;
+}
+
+#project img {
+  width: 15%;
+}
+
+#footer {
+  background-color: #6c757d;
+  height: 25vh;
+  color: whitesmoke;
+}
+
+
+.phone img{
+  width: 7%;
+}
+
+.phone a{
+  margin: auto 0;
+  padding-left: 10px;
+}
+
+.social{
+  display: table;
+}
+
+.social img {
+  width: 6%;
+  margin-left: 10px;
+}
+
+.phone a {
+  color: black;
+  text-decoration: none;
+}
+
+.phone-center {
+  margin: auto;
+}
+
+.social-center {
+  margin: auto;
+}
+
+.copy-center {
+  margin: auto;
+  text-align: center;
+}
+
+#footer h2 {
+  padding-bottom: 1.5vh;
+}
+
